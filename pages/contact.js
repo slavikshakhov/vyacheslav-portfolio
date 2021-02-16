@@ -23,6 +23,7 @@ const Contact = ({t}) => {
     console.log(name, email, message)
     const res = await fetch('/api/email', {
       method: 'POST',
+      credentials: 'same-origin',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({name, email, subject, message})
     })
