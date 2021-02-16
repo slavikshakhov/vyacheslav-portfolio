@@ -7,9 +7,11 @@ export default async (req, res) => {
   // create reusable transporter object using the default SMTP transport
   const {name, email, subject, message} = req.body
   
+
+  
   let transporter = nodemailer.createTransport(smtpTransport({
     service: 'gmail',
-    host: 'localhost',
+    host: 'vyacheslav-portfolio-avuoeqv2b.vercel.app',
     //host: 'smtp.gmail.com',
     auth: {
       user: process.env.EMAIL, // generated ethereal user
@@ -30,6 +32,6 @@ export default async (req, res) => {
 
   console.log("Message sent: %s", info.messageId);
   // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-
+  
 }
 
