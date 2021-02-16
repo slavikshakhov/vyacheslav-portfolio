@@ -9,7 +9,7 @@ export default async (req, res) => {
   
 
   
-  let transporter = nodemailer.createTransport(smtpTransport({
+  let transporter = nodemailer.createTransport({
     service: 'gmail',
     //host: 'vyacheslav-portfolio-avuoeqv2b.vercel.app',
     host: 'smtp.gmail.com',
@@ -17,7 +17,7 @@ export default async (req, res) => {
       user: process.env.EMAIL, // generated ethereal user
       pass: process.env.PW, // generated ethereal password
     }
-  }));
+  });
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
