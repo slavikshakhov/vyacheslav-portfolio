@@ -11,8 +11,8 @@ export default async (req, res) => {
   
   let transporter = nodemailer.createTransport(smtpTransport({
     service: 'gmail',
-    host: 'vyacheslav-portfolio-avuoeqv2b.vercel.app',
-    //host: 'smtp.gmail.com',
+    //host: 'vyacheslav-portfolio-avuoeqv2b.vercel.app',
+    host: 'smtp.gmail.com',
     auth: {
       user: process.env.EMAIL, // generated ethereal user
       pass: process.env.PW, // generated ethereal password
