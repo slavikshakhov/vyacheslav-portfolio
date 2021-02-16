@@ -21,7 +21,7 @@ const Contact = ({t}) => {
   const onFormSubmit = async (e) => {
     e.preventDefault()
     console.log(name, email, message)
-    const res = await fetch('/api/hello', {
+    const res = await fetch('/api/email', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({name, email, subject, message})

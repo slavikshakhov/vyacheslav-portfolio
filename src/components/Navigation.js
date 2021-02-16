@@ -9,8 +9,8 @@ const Navigation = ({t}) => {
     const router = useRouter()    
     return (
         <div className="navigation">
-            <p className={ `hover:text-gray-400 ${router.pathname === '/home' && 'active'}` }>
-                <Link href="/home"><a>{t('home')}</a></Link>
+            <p className={ `hover:text-gray-400 ${router.pathname === '/' && 'active'}` }>
+                <Link href="/"><a>{t('home')}</a></Link>
             </p>
             <p className={ `hover:text-gray-400 ${router.pathname === '/about' && 'active'}` }>
                 <Link href="/about"><a>{t('about')}</a></Link>

@@ -65,9 +65,10 @@
     position: fixed;
     top: 0;
     left: 0;   
+    z-index: 1000;
 }
 .navigation > * {
-    margin-right: 15px;
+    margin-right: 15px;    
 }
 .active {
     color: #9CA3AF;
@@ -81,6 +82,6 @@
     }
     .navigation {
         height: 48px;
-        font-size: 0.9rem;
+        font-size: 0.9rem;        
     }
 }
