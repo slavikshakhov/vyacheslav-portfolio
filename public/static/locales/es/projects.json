@@ -1,0 +1,20 @@
+{
+    "projects-title": "Mis Proyectos",
+    "projects-subtitle": "Solo disponibles en inglés por ahora",
+    "projects-description": "Echa un vistazo a algunos de mis proyectos. En cada proyecto utilicé Javascript ES6, HTML o JSX y CSS. Mi elección de un marco de interfaz de usuario es React o Next.js con algunos proyectos en Angular. Para el backend, prefiero usar Node.js o Firebase Cloud.",
+    "home-finances-title": "Finanzas del Hogar",
+    "home-finances-subtitle": "Rastreador Financiero",
+    "more": "Más información...",
+
+    "tandem-title": "Tándem de Idiomas",
+    "tandem-subtitle": "Aplicación para encontrar compañeros de idiomas",   
+
+    "weight-control-title": "Control de Peso",
+    "weight-control-subtitle": "Aplicación para realizar un seguimiento de los colores consumidos y quemados",
+    
+    "checkers-title": "Juego de Damas",
+    "checkers-subtitle": "Aplicación para jugar a las damas",
+    
+    "chat-title": "Aplicación de Chat en Vivo",
+    "chat-subtitle": "Aplicación de chat público o privado"
+}

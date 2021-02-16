@@ -1,0 +1,25 @@
+{
+    "frontend-title": "Front End - React, Angular",
+    "react-before-link": "React es mi framework favorito. Lo uso en la mayoría de mis aplicaciones con todas las características modernas como React Hooks o Context API, entre muchas otras. Funciona bien con Redux, Styled Components, React Router, etc. In",
+    "react-after-link": "se pueden ver mis proyectos implementados con React y el código de GitHub correspondiente. Esta cartera se creó en Next.js",
+    "react-link1": "Proyectos",
+
+    "angular-before-link": "En mi",
+    "angular-link1": "Aplicación para Bajar de Peso",
+    "angular-after-link": "usé Angular con Angular-Material",
+    "frontend-languages": "Lenguajes",
+    "frontend-technologies": "Technologías",
+    
+    "server-title": "Server - Node.js",
+    "server-description-before-link": "Elegí Node.js para la mayoría de mis",
+    "server-description-after-link": "Prefiero el enfoque minimalista para la creación de aplicaciones porque me da libertad y flexibilidad, lo que en combinación con mi conocimiento profundo de Javascript y algoritmos me permite construir cualquier API posible para satisfacer mejor los requisitos del cliente.",
+    "server-link1": "proyectos",
+    "server-languages": "Lenguajes",
+    "server-technologies": "Technologías",
+
+    "database-title": "Bases de Datos",
+    "database-description": "Cuando se trata de elegir la base de datos, me rijo por la naturaleza de los datos, si se requiere escalabilidad y / o por los requisitos de mis clientes.",
+    "database-tools": "Herramientas",
+    "databases": "Bases de datos"
+}
+

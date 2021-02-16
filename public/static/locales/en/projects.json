@@ -1,0 +1,20 @@
+{
+    "projects-title": "My Projects",
+    "projects-subtitle": "",
+    "projects-description": "Take a look at some of my projects. In each project I used Javascript ES6, HTML or JSX and CSS. My choice of a front end framework is React or Next.js with a few projects in Angular. For the backend I prefer to use Node.js or Firebase Cloud.",
+    "home-finances-title": "Home Finances",
+    "home-finances-subtitle": "Financial Tracker",
+    "more": "More info...",
+
+    "tandem-title": "Language Tandem",
+    "tandem-subtitle": "App to find language partners",   
+
+    "weight-control-title": "Weight Control",
+    "weight-control-subtitle": "App to keep track of colories consumed and burned",
+    
+    "checkers-title": "Checkers Game",
+    "checkers-subtitle": "App to play checkers",
+    
+    "chat-title": "Live Chat App",
+    "chat-subtitle": "App to chat privately with a selected user or publicly with a group of users"
+}

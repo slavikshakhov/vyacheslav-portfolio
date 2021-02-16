@@ -1,0 +1,25 @@
+{
+    "frontend-title": "Front End - React, Angular",
+    "react-before-link": "React is my favorite framework. I use it in most of my applications with all the mordern features like React Hooks or Context API among many others. It works well with Redux, Styled Components, React Router etc. In",
+    "react-after-link": "you can see my deployed projects with React and the corresponding GitHub code. This portfolio was built in Next.js",
+    "react-link1": "Projects",
+
+    "angular-before-link": "In my",
+    "angular-link1": "Weight Loss App",
+    "angular-after-link": "I used Angular with Angular-Material",
+    "frontend-languages": "Languages",
+    "frontend-technologies": "Technologies",
+    
+    "server-title": "Server - Node.js",
+    "server-description-before-link": "I chose Node.js for the majority of my",
+    "server-description-after-link": "I prefer the minimalistic approach to building applicatins because it gives me freedome and flexibility, which in combination with my thorough knowledge of Javascript and algorithms allows me to build any API possible to best satisfy the customer's requirements.",
+    "server-link1": "projects",
+    "server-languages": "Languages",
+    "server-technologies": "Technologies",
+
+    "database-title": "Databases",
+    "detabase-description": "When it comes to choosing the database, I am governed by the nature of the data, if scalability is required and/or by my customers' requirements.",
+    "database-tools": "Tools",
+    "databases": "Databases"
+}
+

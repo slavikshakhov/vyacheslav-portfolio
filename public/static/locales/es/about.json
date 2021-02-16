@@ -1,0 +1,11 @@
+{
+    "main-title": "Sobre Mí",
+    "main-subtitle": "Descúbreme",
+    "title": "Soy Slavik Shakhov, desarrollador web full stack",
+    "body": "Construyo aplicaciones web complejas y con capacidad de respuesta completa principalmente en React, Angular y Node.js. Todos mis proyectos utilizan las tecnologías más avanzadas. Me siento cómodo trabajando con css, sass, bootstrap, tailwind y material design en la parte delantera. Obtuve el 5% superior en mi prueba de evaluación css en LinkedIn. Muchos de mis proyectos requieren el registro y la autenticación de usuarios, donde la seguridad es mi primera prioridad. Cuando trabajo con React, uso la versión más actualizada del marco, usando React Hooks y Context API o Redux para la gestión global del estado. Soy competente en Javascript y trabajo cómodamente tanto con Javascript estándar como con ES6. Mi profundo conocimiento de algoritmos y estructuras de datos me ayuda a escribir el código más eficiente.",
+    "name": "Nombre",
+    "from": "Desde",
+    "country": "España",
+    "resume-btn": "Mi CV",
+    "projects-btn": "Mis Proyectos"
+}

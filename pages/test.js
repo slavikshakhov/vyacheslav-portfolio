@@ -19,6 +19,7 @@ const test = ({t}) => {
             <h1>{t('text')}</h1>
             
             <LanguageSwitcher />
+            <p className="txt">lalala</p>
             
         </div>
     )
