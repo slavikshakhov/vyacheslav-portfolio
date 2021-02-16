@@ -31,10 +31,10 @@ const Contact = ({t}) => {
   
   }
   return (
-    <div className="h-screen px-8 sm:px-16 md:px-52 pt-32 bg-gray-200 flex flex-col items-center space-y-12">
+    <div className="h-screen px-8 sm:px-16 pt-32 bg-gray-200 flex flex-col items-center space-y-12">
       <NextSeo {...SEO} />         
       <h2 className='text-2xl text-gray-600 font-bold'>{t('title')}</h2>
-      <form onSubmit={onFormSubmit} className='flex flex-col space-y-3 md:space-y-2' style={{width: '600px'}}>
+      <form onSubmit={onFormSubmit} className='flex flex-col space-y-3 md:space-y-2 contact'>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-3">
           <input 
             type="text" 

@@ -52,3 +52,11 @@
 .details:hover .overlay {
     display: block;
 }
+.contact {
+    width: 600px;
+}
+@media screen and (max-width: 769px) {
+    .contact {
+        width: 100%;
+    }
+}

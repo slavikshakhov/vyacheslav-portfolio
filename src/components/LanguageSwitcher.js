@@ -12,7 +12,8 @@ const LanguageSwitcher = ({i18n}) => {
     return (
         <select onChange={handleLanguage} className='bg-black text-white outline-none'> 
             <option value="en">en</option> 
-            <option value="es">es</option>            
+            <option value="es">es</option>   
+            <option value="de">de</option>          
         </select>
     )
 }

@@ -9,7 +9,7 @@ const Navigation = ({t}) => {
     const router = useRouter()
     console.log(router.pathname)
     return (
-        <div className="w-screen h-16 flex items-center justify-center space-x-5 text-white fixed top-0 bg-black z-10">
+        <div className="w-screen h-16 flex items-center justify-center space-x-2 md:space-x-3 xl:space-x-5 text-white fixed top-0 bg-black z-10 text-sm sm:text-base">
             <p className={ `hover:text-gray-400 ${router.pathname === '/home' && 'active'}` }>
                 <Link href="/home"><a>{t('home')}</a></Link>
             </p>

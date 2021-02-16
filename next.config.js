@@ -3,7 +3,8 @@ require('dotenv').config()
 const { nextI18NextRewrites } = require('next-i18next/rewrites')
 
 const localeSubpaths = {
-    es: 'es'    
+    es: 'es',
+    de: 'de' 
 }
 
 module.exports = {
