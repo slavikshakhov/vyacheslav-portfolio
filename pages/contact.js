@@ -25,13 +25,13 @@ const Contact = ({t}) => {
     e.preventDefault()
     emailjs.sendForm(publicRuntimeConfig.SERVICE_ID, publicRuntimeConfig.TEMPLATE_ID, e.target, publicRuntimeConfig.USER_ID)
       .then((result) => {
-          console.log(result.text);
-          setName('')
-          setEmail('')
-          setMessage('')
+          console.log(result.text);          
       }, (error) => {
           console.log(error.text);
       });
+      setName('')
+      setEmail('')
+      setMessage('')
   }
   
   return (
