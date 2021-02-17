@@ -31,6 +31,7 @@ const Contact = ({t}) => {
       });
       setName('')
       setEmail('')
+      setSubject('')
       setMessage('')
   }
   
@@ -47,6 +48,7 @@ const Contact = ({t}) => {
             className='md:flex-1 px-5 py-2 text-xl outline-none' 
             value={name}
             required
+            name='name'
             onChange={(e) => setName(e.target.value)}
             />
           <input 
@@ -56,6 +58,7 @@ const Contact = ({t}) => {
             className='md:flex-1 px-5 py-2 text-xl outline-none' 
             value={email}
             required
+            name='name'
             onChange={(e) => setEmail(e.target.value)}
             />
         </div>  
@@ -73,6 +76,7 @@ const Contact = ({t}) => {
           className='px-5 py-2 text-xl outline-none w-full'
           value={message}
           required
+          name='message'
           onChange={e => setMessage(e.target.value)}
           >
 
