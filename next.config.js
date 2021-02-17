@@ -15,7 +15,10 @@ module.exports = {
     },
     publicRuntimeConfig: {
         API_URL: process.env.API_URL,
-        IMAGES_DOMAIN: process.env.IMAGES_DOMAIN
+        IMAGES_DOMAIN: process.env.IMAGES_DOMAIN,
+        SERVICE_ID: process.env.SERVICE_ID,
+        TEMPLATE_ID: process.env.TEMPLATE_ID,
+        USER_ID: process.env.USER_ID
     },
     images: {
         domains: [process.env.IMAGES_DOMAIN],

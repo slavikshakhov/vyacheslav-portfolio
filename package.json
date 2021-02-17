@@ -10,6 +10,7 @@
   "dependencies": {
     "autoprefixer": "^10.0.4",
     "dotenv": "^8.2.0",
+    "emailjs-com": "^2.6.4",
     "isomorphic-unfetch": "^3.1.0",
     "next": "latest",
     "next-i18next": "^7.0.1",

@@ -2,7 +2,9 @@
 import {useState} from 'react'
 import i18n, { withTranslation } from '../i18n'
 import {NextSeo} from 'next-seo'
-
+import emailjs from 'emailjs-com';
+import getConfig from 'next/config'
+const { publicRuntimeConfig } = getConfig()
 
 const Contact = ({t}) => {
   const SEO = {
@@ -18,19 +20,20 @@ const Contact = ({t}) => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [subject, setSubject] = useState('');
-  const onFormSubmit = async (e) => {
-    e.preventDefault()
-    console.log(name, email, message)
-    const res = await fetch('/api/email', {
-      method: 'POST',
-      credentials: 'same-origin',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({name, email, subject, message})
-    })
-    console.log(res)
 
-  
+  const onFormSubmit = (e) => {
+    e.preventDefault()
+    emailjs.sendForm(publicRuntimeConfig.SERVICE_ID, publicRuntimeConfig.TEMPLATE_ID, e.target, publicRuntimeConfig.USER_ID)
+      .then((result) => {
+          console.log(result.text);
+          setName('')
+          setEmail('')
+          setMessage('')
+      }, (error) => {
+          console.log(error.text);
+      });
   }
+  
   return (
     <div className="h-screen px-8 sm:px-16 pt-32 bg-gray-200 flex flex-col items-center space-y-12">
       <NextSeo {...SEO} />         
