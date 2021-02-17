@@ -1,4 +1,6 @@
 {
+    "seo-title": "Mi proyectos",
+    "seo-description": "Algunos proyectos en React, Angular, Node.js, MySQL etc",
     "projects-title": "Mis Proyectos",
     "projects-subtitle": "Solo disponibles en inglés por ahora",
     "projects-description": "Echa un vistazo a algunos de mis proyectos. En cada proyecto utilicé Javascript ES6, HTML o JSX y CSS. Mi elección de un marco de interfaz de usuario es React o Next.js con algunos proyectos en Angular. Para el backend, prefiero usar Node.js o Firebase Cloud.",

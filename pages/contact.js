@@ -8,24 +8,23 @@ const { publicRuntimeConfig } = getConfig()
 
 const Contact = ({t}) => {
   const SEO = {
-    title: 'Contact Me',                            
-    description: 'Contect information',
-
+    title: t('seo-title'),
     openGraph: {
-        title: 'Contact Me',
-        description: 'Contect information',
+        title: t('seo-title')        
     }
   }
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [subject, setSubject] = useState('');
+  const [success, setSuccess] = useState(false)
 
   const onFormSubmit = (e) => {
     e.preventDefault()
     emailjs.sendForm(publicRuntimeConfig.SERVICE_ID, publicRuntimeConfig.TEMPLATE_ID, e.target, publicRuntimeConfig.USER_ID)
       .then((result) => {
-          console.log(result.text);          
+          console.log(result.text);   
+          setSuccess(true);       
       }, (error) => {
           console.log(error.text);
       });
@@ -33,6 +32,9 @@ const Contact = ({t}) => {
       setEmail('')
       setSubject('')
       setMessage('')
+      setTimeout(() => {
+        setSuccess(false)
+      }, 4500);
   }
   
   return (
@@ -82,7 +84,9 @@ const Contact = ({t}) => {
 
         </textarea>
         <button type='submit' className='w-full filled-btn rounded-none text-lg font-medium uppercase'>{t('send')}</button>
+        <div className={`w-full bg-blue-400 text-blue-900 text-center px-3 py-2 ${success ? 'block' : 'hidden'}`}>Your email was sent successfully!</div>
       </form>
+      
     </div>    
   )
 }

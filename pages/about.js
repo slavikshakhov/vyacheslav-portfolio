@@ -2,14 +2,15 @@ import i18n, { withTranslation } from '../i18n'
 import {NextSeo} from 'next-seo'
 import Link from 'next/link'
 
+
 const About = ({t}) => {
   const SEO = {
-        title: 'About Me',                            
-        description: 'What I do, technologies I use: React, Angular, Node.js, MySQL, MongoDB, Firebase',
+        title: t('main-title'),                            
+        description: t('title'),
 
         openGraph: {
-            title: 'About Me',
-            description: 'What I do, technologies I use: React, Angular, Node.js, MySQL, MongoDB, Firebase',
+            title: t('main-title'),
+            description: t('title')
         }
     }
   return (
@@ -35,7 +36,9 @@ const About = ({t}) => {
                 </div>
             </div>
             <div className='flex items-center space-x-6 mt-8'>
-                <button className="filled-btn">{t('resume-btn')}</button>
+                <button className="filled-btn">
+                  <a href='#'>{t('resume-btn')}</a>
+                  </button>
                 <button className="outlined-btn">
                   <Link href='/projects'><a>{t('projects-btn')}</a></Link>
                 </button>

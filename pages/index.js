@@ -9,12 +9,12 @@ import Image from 'next/image'
 const Home = ({t}) => {
   
   const SEO = {
-        title: 'Home',                            
-        description: 'Landing page',
+        title: t('seo-title'),                            
+        description: t('seo-description'),
 
         openGraph: {
             title: 'Home',
-            description: 'Landing page',
+            description: t('seo-description'),
         }
     }
   return (

@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 const Skills = ({t}) => {
   const SEO = {
-        title: 'My Skills',                            
-        description: 'Summery of my skills',
+        title: t('seo-title'),                            
+        description: t('seo-description'),
 
         openGraph: {
-            title: 'My Skills',
-            description: 'Summery of my skills',
+            title: t('seo-title'),
+            description: t('seo-description'),
         }
     }
   return (
@@ -29,6 +29,7 @@ const Skills = ({t}) => {
             <h1 className="text-2xl font-bold text-center md:text-left">{t('frontend-title')}</h1>
             <p className="text-gray-500" style={{fontFamily: 'Roboto'}}>
                 {t('react-before-link')} <Link href='/projects'><a className='link'>{t('react-link1')}</a></Link> {t('react-after-link')}
+                <a href='https://github.com/slavikshakhov/vyacheslav-portfolio' className='link' target='_blank'> {t('react-link2')}</a>
             </p>
             <p className="text-gray-500" style={{fontFamily: 'Roboto'}}>{t('angular-before-link')} <Link href='/weight-control'><a className='link'>{t('angular-link1')}</a></Link> {t('angular-after-link')}</p>
             <hr className='border-t-2' />

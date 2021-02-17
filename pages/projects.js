@@ -7,12 +7,12 @@ import Link from 'next/link'
 
 const Projects = ({t}) => {
   const SEO = {
-        title: 'My Projects',                            
-        description: 'My selected projects with Javascript, ES6, React, tailwind, Material Design',
+        title: t('seo-title'),                            
+        description: t('seo-description'),
 
         openGraph: {
-            title: 'My Projects',
-            description: 'My selected projects with Javascript, ES6, React, tailwind, Material Design',
+            title: t('seo-title'),
+            description: t('seo-description'),
         }
     }
   return (

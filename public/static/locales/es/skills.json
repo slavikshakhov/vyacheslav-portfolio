@@ -1,8 +1,11 @@
 {
+    "seo-title": "Habilidades",    
+    "seo-description": "Javascript, ES6, React, Gatsby, Next.js, Angular, Bootstrap, Tailwind, Tachyons, css, html, sass, Styled Components, Material Design, Material UI, Node.js, Express.js, MySQL, SQLite, postgreSQL, MongoDB, Git, GitHub, Firebase, Firestore, Netlify, Contentful, GraphQL, Elixir, Erlang, Phoenix",
     "frontend-title": "Front End - React, Angular",
     "react-before-link": "React es mi framework favorito. Lo uso en la mayoría de mis aplicaciones con todas las características modernas como React Hooks o Context API, entre muchas otras. Funciona bien con Redux, Styled Components, React Router, etc. In",
-    "react-after-link": "se pueden ver mis proyectos implementados con React y el código de GitHub correspondiente. Esta cartera se creó en Next.js",
+    "react-after-link": "se pueden ver mis proyectos implementados con React y el código de GitHub correspondiente. Este portfolio se creó en Next.js. Es compatible con SEO y se puede visualizar en inglés, español y alemán. Vea",
     "react-link1": "Proyectos",
+    "react-link2": "código en GigHub",
 
     "angular-before-link": "En mi",
     "angular-link1": "Aplicación para Bajar de Peso",

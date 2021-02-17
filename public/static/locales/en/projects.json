@@ -1,4 +1,6 @@
 {
+    "seo-title": "My Projects",
+    "seo-description": "Some projects in React, Angular, Node.js, MySQL etc",
     "projects-title": "My Projects",
     "projects-subtitle": "",
     "projects-description": "Take a look at some of my projects. In each project I used Javascript ES6, HTML or JSX and CSS. My choice of a front end framework is React or Next.js with a few projects in Angular. For the backend I prefer to use Node.js or Firebase Cloud.",
