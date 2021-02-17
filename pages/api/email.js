@@ -14,8 +14,11 @@ export default async (req, res) => {
     //host: 'vyacheslav-portfolio-avuoeqv2b.vercel.app',
     host: 'smtp.gmail.com',
     auth: {
-      user: process.env.EMAIL, // generated ethereal user
-      pass: process.env.PW, // generated ethereal password
+      //user: process.env.EMAIL, // generated ethereal user
+      //pass: process.env.PW, // generated ethereal password
+      user: 'shakhovslavik@gmail.com',
+      pass: 'gerKanuk55'
+
     }
   });
 
