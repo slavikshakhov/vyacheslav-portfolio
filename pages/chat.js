@@ -20,7 +20,7 @@ const Chat = ({t}) => {
       <div className="flex flex-col xl:flex-row items-center xl:items-start space-x-10">
           <div className="mb-5">
               <div className="w-96 h-96 p-5 bg-yellow-300 flex flex-col items-center justify-around">
-                <div className="w-2/3 bg-yellos-500"><img src="/assets/chat.png" alt=""  /></div>  
+                <div className="w-1/2 bg-yellos-500 text-center"><img src="/assets/live-chat.png" alt=""  /></div>  
                 <div className="">
                     <h3 className="text-2xl font-semibold uppercase text-center">{t('title')}</h3>
                     <p className="text-sm text-center">{t('subtitle')}</p>

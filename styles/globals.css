@@ -75,6 +75,8 @@
 .active {
     color: #9CA3AF;
 }
+
+
 @media screen and (max-width: 769px) {
     .contact {
         width: 100%;

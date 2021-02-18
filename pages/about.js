@@ -3,6 +3,7 @@ import {NextSeo} from 'next-seo'
 import Link from 'next/link'
 
 
+
 const About = ({t}) => {
   const SEO = {
         title: t('main-title'),                            
@@ -18,10 +19,10 @@ const About = ({t}) => {
       <NextSeo {...SEO} />          
       <h2 className='text-2xl xl:text-3xl font-bold text-center xl:text-left'>{t('main-title')}</h2>
       <p className='text-sm text-gray-500 text-center xl:text-left'>{t('main-subtitle')}</p>
-      <div className="flex flex-col xl:flex-row space-x-12 mt-3 xl:mt-8">
-        <div className='bg-gray-500' style={{minWidth: '300px', height: '400px'}}>
-            <img src="" alt=""/>
-        </div>
+      <div className="flex flex-col justify-center items-center xl:flex-row space-x-12 mt-3 xl:mt-8">
+        
+            <img src="/assets/profile-pic.png" alt=""  className='bg-gray-500' style={{width: '300px', height: '400px'}}/>
+     
         <div className='mt-5 xl:mt-0'>
             <h2 className="text-xl xl:text-2xl font-bold">{t('title')}</h2>
             <p className="text-gray-500 mt-4">{t('body')}</p>
@@ -35,13 +36,16 @@ const About = ({t}) => {
                     <p className="text-gray-900">Email: <span className='text-yellow-600'>v.shakhov@yahoo.ca</span></p>
                 </div>
             </div>
-            <div className='flex items-center space-x-6 mt-8'>
-                <button className="filled-btn">
-                  <a href='#'>{t('resume-btn')}</a>
-                  </button>
-                <button className="outlined-btn">
+            <div className='flex items-center justify-center md:justify-end space-x-6 mt-8'>
+              {/* 
+              <button className="filled-btn">
+                <a href=''>{t('resume-btn')}</a>
+              </button>              
+              */}                
+                <button className="outlined-btn px-10 text-lg font-bold">
                   <Link href='/projects'><a>{t('projects-btn')}</a></Link>
                 </button>
+                
             </div>
         </div>
       </div>

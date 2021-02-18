@@ -4,19 +4,19 @@
     "projects-title": "Meine Projekte",
     "projects-subtitle": "Im Moment sind alle meine Projekte auf Englisch",
     "projects-description": "Schauen Sie sich einige meiner Projekte an. In jedem Projekt habe ich Javascript ES6, HTML oder JSX und CSS verwendet. Ich habe mich für ein Front-End-Framework für React oder Next.js und mit einigen Projekten für Angular entschieden. Für das Backend bevorzuge ich Node.js oder Firebase Cloud.",
-    "home-finances-title": "Home Finances",
-    "home-finances-subtitle": "Financial Tracker",
+    "home-finances-title": "Hausfinanzen",
+    "home-finances-subtitle": "Persönlicher Finanzen Tracker",
     "more": "Mehr Informationen...",
 
-    "tandem-title": "Language Tandem",
+    "tandem-title": "Sprachtandem",
     "tandem-subtitle": "App, um Sprachpartner zu finden",   
 
-    "weight-control-title": "Weight Control",
+    "weight-control-title": "Gewichtskontrolle",
     "weight-control-subtitle": "App, um die verbrauchten und verbrannten Kalorien zu verfolgen",
     
-    "checkers-title": "Checkers Game",
+    "checkers-title": "Dame Spiel",
     "checkers-subtitle": "App zum Spielen von Dame",
     
-    "chat-title": "Live Chat App",
+    "chat-title": "Live Chat",
     "chat-subtitle": "App, um privat mit einem ausgewählten Benutzer oder öffentlich mit einer Gruppe von Benutzern zu chatten"
 }
