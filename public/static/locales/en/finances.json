@@ -1,0 +1,11 @@
+{
+    "seo-title": "Home Finances App",
+    "seo-description": "Personal financial tracker",
+    "title": "Home Finances",
+    "subtitle": "Financial Tracker",
+    "title-technologies": "React, Node.js, MySQL",
+    "description": "After user registers, he or she may set the total balance of money available. Each transactin consists or an item and sum. The latter is either added to or subtracted from the total balance. I used my custom animations to show the magic. If the user wishes to view the transactions for a certain day, he or she may click on a selected day in a calendar. I built the calendar from scratch just using the Javascript Date object. I used React Context API to manage the global state and React Hooks for a local state management.",
+    "technologies": "Technologies, Tools",
+    "technologies-list": "React, React Hooks, Context API, CSS, TailwindCSS, Node.js, MySQL, GigHub Pages, Heroku",
+    "live-project-btn": "view Project"
+}

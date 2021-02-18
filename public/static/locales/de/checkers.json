@@ -1,0 +1,11 @@
+{
+    "seo-title": "Dame Spiel App",
+    "seo-description": "App zum Spielen von Dame",
+    "title": "Dame Spiel",
+    "subtitle": "App zum Spielen von Dame",
+    "title-technologies": "React, Redux",
+    "description": "Diese React-Anwendung ist ein klassisches Dame-Spiel. Jeder Zug wird in der Sommertabelle mit einem Zug von / nach Ort, der Art des bewegten Stücks und der Frage aufgezeichnet, ob er zu einer Eroberung eines gegnerischen Stücks geführt hat. Jede Zelle der Platine ist tatsächlich eine Reaktionskomponente. Da das Spiel einen komplexen Datenaustausch zwischen mehreren Komponenten erfordert, habe ich Redux anstelle von React Context verwendet.",
+    "technologies": "Technologien",
+    "technologies-list": "React, Redux, GitHub Pages",
+    "live-project-btn": "sehe Projekt"
+}

@@ -1,0 +1,11 @@
+{
+    "seo-title": "Live Chat App",
+    "seo-description": "App to chat privately with a selected user or publicly with a group of users",
+    "title": "Live Chat",
+    "subtitle": "App to chat privately with a selected user or publicly with a group of users",
+    "title-technologies": "React, Node.js",
+    "description": "This is a classic chat application. The user can chat with other online users either in private chat with selected participant(s) or publicly with a group.",
+    "technologies": "Technologies, Tools",
+    "technologies-list": "React, Tachions, Node.js, Socket.io, GitHub Pages, Heroku",
+    "live-project-btn": "veiw Project"
+}

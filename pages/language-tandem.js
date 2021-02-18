@@ -6,12 +6,12 @@ import {NextSeo} from 'next-seo'
 
 const LanguageTandem = ({t}) => {
   const SEO = {
-        title: 'Language Tandem',                            
-        description: 'Details about Language Tandem App',
+        title: t('seo-title'),                            
+        description: t('seo-descripton'),
 
         openGraph: {
-            title: 'Language Tandem',
-            description: 'Details about Language Tandem App',
+            title: t('seo-title'),
+            description: t('seo-descripton')
         }
     }
   return (
@@ -22,30 +22,30 @@ const LanguageTandem = ({t}) => {
               <div className="w-96 h-96 p-5 bg-blue-400 flex flex-col items-center justify-around">
                 <div className="w-2/3 bg-yellow-500"><img src="/assets/tandem.jpg" alt=""  /></div>  
                 <div className="">
-                    <h3 className="text-2xl font-semibold uppercase text-center">Language Tandem</h3>
-                    <p className="text-sm text-center">App to find language partners</p>
+                    <h3 className="text-2xl font-semibold uppercase text-center">{t('title')}</h3>
+                    <p className="text-sm text-center">{t('subtitle')}</p>
                 </div>                 
             </div> 
           </div>
           <div className="flex-1 space-y-8">
               <div className="flex items-center justify-between flex-col xl:flex-row ">
-                <h2 className="text-2xl font-bold text-center xl:text-left">Language Tandem</h2>
-                <span className='text-lg text-gray-600 font-bold xl:text-right'>React, Redux, Node.js, MySQL</span>
+                <h2 className="text-2xl font-bold text-center xl:text-left">{t('title')}</h2>
+                <span className='text-lg text-gray-600 font-bold xl:text-right'>{t('title-technologies')}</span>
               </div>              
               <p className='text-gray-500'>
-                This app requires user registration and authentication. The purpose of the app is to allow users to find potential language exchange partners. The matching is based on the language(s) spoken and the ones the user would like to practice. Complex MySQL relationships were used. The user then can contact any of the potential partners from the matched list. The live chat is enabled for those currently online. The user can change his or her language choices at any time. 
+                {t('description')}
               </p>
               <div className="">
-                <h2 className="text-xl font-semibold">Technologies, Tools</h2>
+                <h2 className="text-xl font-semibold">{t('technologies')}</h2>
                 <p className="text-gray-500">
-                  React, Redux, Socket.io, Node.js, MySQL, GitHub Pages, Heroku
+                  {t('technologies-list')}
                 </p>
               </div>
               <div className="flex items-center justify-center space-x-5">
                   
                 <button className="filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl">
                     <a href="https://slavikshakhov.github.io/tandem-react-client/" target='_blank'>
-                        view Project
+                        {t('live-project-btn')}
                     </a>
                 </button>
                 <button className="filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl">

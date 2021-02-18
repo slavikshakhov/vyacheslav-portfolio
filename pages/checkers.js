@@ -4,12 +4,12 @@ import {NextSeo} from 'next-seo'
 
 const Checkers = ({t}) => {
   const SEO = {
-        title: 'Checkers Game',                            
-        description: 'Details about Checkers Game App',
+        title: t('seo-title'),                            
+        description: t('seo-description'),
 
         openGraph: {
-            title: 'Checkers Game',
-            description: 'Details about Checkers Game App',
+            title: t('seo-title'),
+            description: t('seo-description'),
         }
     }
   return (
@@ -20,28 +20,28 @@ const Checkers = ({t}) => {
               <div className="w-96 h-96 p-5 bg-pink-400 flex flex-col items-center justify-around">
                 <div className="w-2/3 bg-yellos-500"><img src="/assets/checkers.png" alt=""  /></div>  
                 <div className="">
-                    <h3 className="text-2xl font-semibold uppercase text-center">Checkers Game</h3>
-                    <p className="text-sm text-center">App to play checkers with scores table</p>
+                    <h3 className="text-2xl font-semibold uppercase text-center">{t('title')}</h3>
+                    <p className="text-sm text-center">{t('subtitle')}</p>
                 </div>                 
             </div> 
           </div>
           <div className="flex-1 space-y-8">
               <div className="flex items-center justify-between">
-                <h2 className="text-2xl font-bold text-center xl:text-left">Checkers App</h2>
-                <span className='text-lg text-gray-600 font-bold'>React, Redux</span>
+                <h2 className="text-2xl font-bold text-center xl:text-left">{t('title')}</h2>
+                <span className='text-lg text-gray-600 font-bold'>{t('title-technologies')}</span>
               </div>              
               <p className='text-gray-500'>
-                This React application is a classic checkers game. Each move is recorded in the summery table with a move from / to location, type of piece moved and whether it resulted in a capture of an opponent piece. Each cell of the board is actually a React component. Since the game requires complex data sharing between multiple components, I used Redux rather than React Context. 
+                {t('description')}
               </p>
               <div className="">
-                <h2 className="text-xl font-semibold">Technologies</h2>
-                <p className="text-gray-500">React, Redux, GitHub Pages</p>
+                <h2 className="text-xl font-semibold">{t('technologies')}</h2>
+                <p className="text-gray-500">{t('technologies-list')}</p>
               </div>
               <div className="flex items-center justify-center space-x-5">
                   
                 <button className="filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl">
                     <a href="https://slavikshakhov.github.io/slavik-checkers-app/" target='_blank'>
-                        view Project
+                        {t('live-project-btn')}
                     </a>
                 </button>
                 <button className="filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl">

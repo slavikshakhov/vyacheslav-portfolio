@@ -1,0 +1,11 @@
+{
+    "seo-title": "Aplicación de Chat en Vivo",
+    "seo-description": "Aplicación para chatear de forma privada con un usuario seleccionado o públicamente con un grupo de usuarios",
+    "title": "Chat en Vivo",
+    "subtitle": "Aplicación para chatear de forma privada con un usuario seleccionado o públicamente con un grupo de usuarios",
+    "title-technologies": "React, Node.js",
+    "description": "Esta es una aplicación de chat clásica. El usuario puede chatear con otros usuarios en línea ya sea en un chat privado con los participantes seleccionados o públicamente con un grupo.",
+    "technologies": "Technologías, Herramientas",
+    "technologies-list": "React, Tachions, Node.js, Socket.io, GitHub Pages, Heroku",
+    "live-project-btn": "ver Proyecto"
+}

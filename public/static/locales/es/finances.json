@@ -1,0 +1,11 @@
+{
+    "seo-title": "Aplicación de Finanzas del Hogar",
+    "seo-description": "Finanzas personales",
+    "title": "Finanzas del Hogar",
+    "subtitle": "Finanzas personales",
+    "title-technologies": "React, Node.js, MySQL",
+    "description": "Después de que el usuario se registre, puede establecer el saldo total de dinero disponible. Cada transactina consta de un artículo y una suma. Este último se suma o se resta del saldo total. Usé mis animaciones personalizadas para mostrar la magia. Si el usuario desea ver las transacciones de un día determinado, puede hacer clic en un día seleccionado en un calendario. Construí el calendario desde cero solo usando el objeto Date de Javascript. Usé React Context API para administrar el estado global y React Hooks para una administración de estado local.",
+    "technologies": "Technologías, Herramientas",
+    "technologies-list": "React, React Hooks, Context API, CSS, TailwindCSS, Node.js, MySQL, GigHub Pages, Heroku",
+    "live-project-btn": "ver Proyecto"
+}

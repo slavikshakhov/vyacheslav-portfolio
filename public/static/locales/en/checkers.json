@@ -1,0 +1,11 @@
+{
+    "seo-title": "Checkers Game App",
+    "seo-description": "App to play checkers",
+    "title": "Checkers Game",
+    "subtitle": "App to play checkers",
+    "title-technologies": "React, Redux",
+    "description": "This React application is a classic checkers game. Each move is recorded in the summery table with a move from / to location, type of piece moved and whether it resulted in a capture of an opponent piece. Each cell of the board is actually a React component. Since the game requires complex data sharing between multiple components, I used Redux rather than React Context.",
+    "technologies": "Technologies",
+    "technologies-list": "React, Redux, GitHub Pages",
+    "live-project-btn": "veiw Project"
+}

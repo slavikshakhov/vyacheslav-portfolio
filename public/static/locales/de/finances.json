@@ -1,0 +1,11 @@
+{
+    "seo-title": "Hausfinanzen",
+    "seo-description": "Persönlicher Finanzen Tracker",
+    "title": "Hausfinanzen",
+    "subtitle": "Finanzen Tracker",
+    "title-technologies": "React, Node.js, MySQL",
+    "description": "Nachdem sich der Benutzer registriert hat, kann er den gesamten verfügbaren Geldbetrag festlegen. Jede Transaction besteht aus einem Gegenstand und einer Summe. Letzteres wird entweder zum Gesamtguthaben addiert oder von diesem abgezogen. Ich habe meine benutzerdefinierten Animationen verwendet, um die Magie zu zeigen. Wenn der Benutzer die Transaktionen für einen bestimmten Tag anzeigen möchte, kann er auf einen ausgewählten Tag in einem Kalender klicken. Ich habe den Kalender von Grund auf neu erstellt, indem ich nur das Javascript Date-Objekt verwendet habe. Ich habe die React Context API verwendet, um das globale State zu verwalten, und React Hooks für eine lokale Stateverwaltung.",
+    "technologies": "Technologien, Tools",
+    "technologies-list": "React, React Hooks, Context API, CSS, TailwindCSS, Node.js, MySQL, GigHub Pages, Heroku",
+    "live-project-btn": "sehe Projekt"
+}
