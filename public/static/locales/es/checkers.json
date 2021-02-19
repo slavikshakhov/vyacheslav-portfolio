@@ -5,7 +5,7 @@
     "subtitle": "Aplicación para jugar a las damas",
     "title-technologies": "React, Redux",
     "description": "Esta aplicación React es un juego de damas clásico. Cada movimiento se registra en la tabla de verano con un movimiento desde / hacia la ubicación, el tipo de pieza movida y si resultó en la captura de una pieza oponente. Cada celda de la placa es en realidad un componente de React. Dado que el juego requiere un intercambio complejo de datos entre múltiples componentes, usé Redux en lugar de React Context.",
-    "technologies": "Technologías, Herramientas",
+    "technologies": "Tecnologías, Herramientas",
     "technologies-list": "React, Redux, GitHub Pages",
     "live-project-btn": "ver Proyecto"
 }

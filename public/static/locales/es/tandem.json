@@ -5,7 +5,7 @@
     "subtitle": "Aplicación para encontrar compañeros de idiomas",
     "title-technologies": "React, Redux, Node.js, MySQL",
     "description": "Esta aplicación requiere el registro y la autenticación del usuario. El propósito de la aplicación es permitir a los usuarios encontrar posibles socios de intercambio de idiomas. La coincidencia se basa en los idiomas hablados y los que el usuario le gustaría practicar. Se utilizaron relaciones complejas de MySQL. A continuación, el usuario puede ponerse en contacto con cualquiera de los socios potenciales de la lista coincidente. El chat en vivo está habilitado para aquellos que están actualmente en línea. El usuario puede cambiar sus opciones de idioma en cualquier momento.",
-    "technologies": "Technologías, Herramientas",
+    "technologies": "Tecnologías, Herramientas",
     "technologies-list": "React, Redux, Socket.io, Node.js, MySQL, GitHub Pages, Heroku",
     "live-project-btn": "ver Proyecto",
     "popup-text": "Este proyecto requiere registro y autenticación. Regístrese o inicie sesión con:",

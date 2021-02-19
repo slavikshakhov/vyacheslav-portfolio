@@ -5,7 +5,7 @@
     "subtitle": "Aplicación para realizar un seguimiento de los colores consumidos y quemados",
     "title-technologies": "Angular, Firebase",
     "description": "Después del registro, se le pide al usuario que proporcione su edad, sexo, altura y peso, seguido de una ventana emergente preguntando cuántos kilogramos (0,5, 1,0, 1,5, etc.) por semana uno desea perder. Esto calculará el déficit calórico por día necesario para lograr el objetivo establecido, en función de los parámetros corporales y los objetivos proporcionados al registrarse. El déficit calórico o conjetura se calcula no solo en base a la diferencia entre la cantidad total de calorías consumidas con los alimentos y quemadas por las actividades, sino también por la tasa metabólica basal que depende de los parámetros corporales, la edad y el sexo. Cada vez que un usuario consume alimentos o realiza una actividad, hace clic en el icono correspondiente para recalcular la cantidad total de déficit o superación calórica y también los gramos de grasa perdidos o ganados desde la medianoche del día actual. Los resultados se visualizan en la tabla en vivo. También es posible ver el verano de todos los días anteriores.",
-    "technologies": "Lenguajes de programación, Technologías, Herramientas",
+    "technologies": "Lenguajes de programación, Tecnologías, Herramientas",
     "technologies-list": "Angular, Typescript, Javascript, CSS, HTML, Material Design, AngularFirestore, AngularFireAuth, Firebase",
     "live-project-btn": "ver Proyecto",
     "popup-text": "Este proyecto requiere registro y autenticación. Regístrese o inicie sesión con:",
