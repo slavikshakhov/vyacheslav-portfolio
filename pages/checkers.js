@@ -30,7 +30,7 @@ const Checkers = ({t}) => {
                 <h2 className="text-2xl font-bold text-center xl:text-left">{t('title')}</h2>
                 <span className='text-lg text-gray-600 font-bold'>{t('title-technologies')}</span>
               </div>              
-              <p className='text-gray-500'>
+              <p className='text-gray-500 text-justify'>
                 {t('description')}
               </p>
               <div className="">
