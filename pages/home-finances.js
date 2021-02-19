@@ -1,5 +1,5 @@
 
-
+import {useState} from 'react'
 import i18n, { withTranslation } from '../i18n'
 import {NextSeo} from 'next-seo'
 
@@ -14,6 +14,14 @@ const HomeFinances = ({t}) => {
             description: t('seo-description'),
         }
     }
+  const [isPopupOpen, setPopupOpen] = useState(false)
+
+  const openPopup = () => {
+    setPopupOpen(true);    
+  }
+  const closePopup = () => {
+    setPopupOpen(false)
+  }
   return (
     <div className="mx-5 sm:mx-20 lg:mx-40 xl:mx-52 mt-20 mb-10 xl:mt-40">
       <NextSeo {...SEO} />          
@@ -41,28 +49,41 @@ const HomeFinances = ({t}) => {
                   {t('technologies-list')}
                 </p>
               </div>
-              <div className="flex items-center justify-center space-x-5">
+              <div className="flex items-center justify-center space-x-5 relative">
                   
-                <button className="filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl">
-                    <a href="https://slavikshakhov.github.io/homefinances-client/" target='_blank'>
-                        {t('live-project-btn')}
-                    </a>
+                <button onClick={openPopup}  className={
+                  `filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl ${isPopupOpen && 'hidden'}`
+                  }>
+                    {t('live-project-btn')}
                 </button>
-                <button className="filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl">
-                    <a href="https://github.com/slavikshakhov/homefinances-client" target='_blank'>
-                        GitHub - Client
-                    </a>
+                 <button className={
+                  `filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl ${isPopupOpen && 'hidden'}`
+                  }>
+                    GitHub - Client
                 </button>
-                <button className="filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl">
+                 <button className={
+                  `filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl ${isPopupOpen && 'hidden'}`
+                  }>
                     <a href="https://github.com/slavikshakhov/homefinances-server" target='_blank'>
                         GitHub - Server
                     </a>
                 </button>
-              </div>
-              
-              
+                <div className={`bg-blue-200 rounded-md shadow-lg absolute left-0 top-0 px-3 py-2 text-sm ${!isPopupOpen && 'hidden'}`}>
+                  <p>{t('popup-text')}</p>  
+                  <p><span className='font-semibold'>{t('username-key')}:</span> {t('username-value')},<span className='font-semibold'> {t('password-key')}:</span> {t('password-value')}</p> 
+                  <div className="flex space-x-2 items-center justify-center mt-2">
+                    <button onClick={closePopup} className='popup-btn bg-yellow-400 hover:bg-yellow-500'>
+                      <a href="https://slavikshakhov.github.io/homefinances-client/" target='_blank'>
+                        {t('open-project')}
+                      </a>
+                    </button>
+                    <button onClick={closePopup} className='popup-btn bg-red-400 hover:bg-red-500'>{t('cancel')}</button>
+                  </div>
+                </div>
+              </div>             
           </div>
       </div>
+      
     </div>    
   )
 }

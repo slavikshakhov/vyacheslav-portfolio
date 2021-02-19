@@ -7,5 +7,11 @@
     "description": "After registration, a user is asked to provide his or her age, gender, height and weight followed by a popup asking for how many kilograms (0.5, 1.0, 1.5 etc) per week one desires to lose. This will calculate the caloric deficit per day necessary to achieve the set goal, based on the body parameters and goals provided when registered. The caloric deficit or surmout is calculated not only based on the difference between total amount of calories consumed with food and burned by activities, but also by the basal metabolic rate that is dependent on body parameters, age and gender. Every time a user consumes food or performs an activity, he or she clicks a corresponding icon to recalculate the total amount of caloric deficit or surmount and also the grams of fat that is lost or gained since midnight of the current day. The results are visualized in the table live. It is also possible to view the summery for all previous days.",
     "technologies": "Languages, Technologies, Tools",
     "technologies-list": "Angular, Typescript, Javascript, CSS, HTML, Material Design, AngularFirestore, AngularFireAuth, Firebase",
-    "live-project-btn": "veiw Project"
+    "live-project-btn": "veiw Project",
+    "popup-text": "This project requires registration and authentication. Register or log in with:",
+    "email-key": "Email",
+    "email-value": "testing@gmail.com",
+    "password-key": "Password",
+    "password-value": "Testing",
+    "open-project": "Open Project"
 }

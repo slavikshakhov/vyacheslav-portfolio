@@ -7,5 +7,11 @@
     "description": "This app requires user registration and authentication. The purpose of the app is to allow users to find potential language exchange partners. The matching is based on the language(s) spoken and the ones the user would like to practice. Complex MySQL relationships were used. The user then can contact any of the potential partners from the matched list. The live chat is enabled for those currently online. The user can change his or her language choices at any time.",
     "technologies": "Technologies, Tools",
     "technologies-list": "React, Redux, Socket.io, Node.js, MySQL, GitHub Pages, Heroku",
-    "live-project-btn": "veiw Project"
+    "live-project-btn": "veiw Project",
+    "popup-text": "This project requires registration and authentication. Register or log in with:",
+    "username-key": "Username",
+    "username-value": "Testing",
+    "password-key": "Password",
+    "password-value": "Testing",
+    "open-project": "Open Project"
 }

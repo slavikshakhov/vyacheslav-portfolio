@@ -19,7 +19,11 @@
     .error {
         @apply mt-4 text-red-500
     }
-
+    .popup-btn {
+        @apply px-5 py-2 rounded-md tracking-tight transition duration-200
+            
+    }
+    
     
     .filled-btn {
         @apply px-8 py-2 bg-yellow-600 text-sm text-white rounded-3xl font-normal tracking-tight transition duration-200
@@ -33,6 +37,7 @@
                 active:bg-yellow-500
                 focus:outline-none
     }
+
     .disable {
         @apply bg-gray-500
     }

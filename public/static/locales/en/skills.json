@@ -3,7 +3,7 @@
     "seo-description": "Javascript, ES6, React, Gatsby, Next.js, Angular, Bootstrap, Tailwind, Tachyons, css, html, sass, Styled Components, Material Design, Material UI, Node.js, Express.js, MySQL, SQLite, postgreSQL, MongoDB, Git, GitHub, Firebase, Firestore, Netlify, Contentful, GraphQL, Elixir, Erlang, Phoenix",
     "frontend-title": "Front End - React, Angular",
     "react-before-link": "React is my favorite framework. I use it in most of my applications with all the mordern features like React Hooks or Context API among many others. It works well with Redux, Styled Components, React Router etc. In",
-    "react-after-link": "you can see my deployed projects with React and the corresponding GitHub code. This portfolio was built in Next.js. It supports SEO and can be viewd in English, Spanish and German. See",
+    "react-after-link": "you can see my deployed projects with React and the corresponding GitHub code. This portfolio was built in React and Next.js. It supports SEO and can be viewed in English, Spanish and German. See",
     "react-link1": "Projects",
     "react-link2": "GigHub code",
 

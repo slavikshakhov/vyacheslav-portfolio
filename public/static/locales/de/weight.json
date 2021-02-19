@@ -7,5 +7,12 @@
     "description": "Diese App erfordert eine Benutzerregistrierung und -authentifizierung. Mit der App können Benutzer potenzielle Sprachaustauschpartner finden. Das Matching basiert auf den gesprochenen Sprachen und denen, die der Benutzer üben möchte. Es wurden komplexe MySQL-Beziehungen verwendet. Der Benutzer kann dann einen beliebigen potenziellen Partner aus der übereinstimmenden Liste kontaktieren. Der Live-Chat ist für diejenigen aktiviert, die gerade online sind. Der Benutzer kann seine Sprachauswahl jederzeit ändern.",
     "technologies": "Programmiersprachen, Technologien",
     "technologies-list": "Angular, Typescript, Javascript, CSS, HTML, Material Design, AngularFirestore, AngularFireAuth, Firebase",
-    "live-project-btn": "sehe Projekt"
+    "live-project-btn": "sehe Projekt",
+    "popup-text": "Dieses Projekt erfordert eine Registrierung und Authentifizierung. Registrieren oder anmelden mit:",
+    "email-key": "Email",
+    "email-value": "testing@gmail.com",
+    "password-key": "Password",
+    "password-value": "Testing",
+    "open-project": "Projekt öffnen",
+    "cancel": "Abbrechen"
 }
