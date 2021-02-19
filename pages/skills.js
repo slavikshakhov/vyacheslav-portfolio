@@ -25,7 +25,7 @@ const Skills = ({t}) => {
               className=""
             />
           </div>
-          <div className="flex flex-1 flex-wrap flex-col space-y-1">
+          <div className="flex flex-1 flex-wrap flex-col space-y-1 text-justify">
             <h1 className="text-2xl font-bold text-center md:text-left">{t('frontend-title')}</h1>
             <p className="text-gray-500" style={{fontFamily: 'Roboto'}}>
                 {t('react-before-link')} <Link href='/projects'><a className='link'>{t('react-link1')}</a></Link> {t('react-after-link')}
@@ -47,7 +47,7 @@ const Skills = ({t}) => {
               className=""
             />
           </div>
-          <div className="flex flex-1 flex-wrap flex-col space-y-1">
+          <div className="flex flex-1 flex-wrap flex-col space-y-1 text-justify">
             <h1 className="text-2xl font-bold text-center md:text-left">{t('server-title')}</h1>
             <p className="text-gray-500" style={{fontFamily: 'Roboto'}}>
                 {t('server-description-before-link')} <Link href='/projects'><a className='link'>{t('server-link1')}</a></Link>. {t('server-description-after-link')} 
@@ -67,7 +67,7 @@ const Skills = ({t}) => {
               className=""
             />
           </div>
-          <div className="flex flex-1 flex-wrap flex-col space-y-1">
+          <div className="flex flex-1 flex-wrap flex-col space-y-1 text-justify">
             <h1 className="text-2xl font-bold text-center md:text-left">{t('database-title')}</h1>
             <p className="text-gray-500" style={{fontFamily: 'Roboto'}}>
                 {t('database-description')} 

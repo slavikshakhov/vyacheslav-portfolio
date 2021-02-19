@@ -21,7 +21,7 @@
     "server-technologies": "Technologien",
 
     "database-title": "Datenbankverwaltungssysteme.",
-    "detabase-description": "Bei der Auswahl der Datenbank schaue ich auf die Art der Daten, ob Skalierbarkeit erforderlich ist und / oder welche Anforderungen meine Kunden hat.",
+    "database-description": "Bei der Auswahl der Datenbank schaue ich auf die Art der Daten, ob Skalierbarkeit erforderlich ist und / oder welche Anforderungen meine Kunden hat.",
     "database-tools": "Programmierwerkzeuge",
     "databases": "Datenbanken"
 }

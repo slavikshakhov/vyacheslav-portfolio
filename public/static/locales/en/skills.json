@@ -21,7 +21,7 @@
     "server-technologies": "Technologies",
 
     "database-title": "Databases",
-    "detabase-description": "When it comes to choosing the database, I am governed by the nature of the data, if scalability is required and/or by my customers' requirements.",
+    "database-description": "When it comes to choosing the database, I am governed by the nature of the data, if scalability is required and/or by my customers' requirements.",
     "database-tools": "Tools",
     "databases": "Databases"
 }

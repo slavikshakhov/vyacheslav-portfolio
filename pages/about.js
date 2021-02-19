@@ -25,7 +25,7 @@ const About = ({t}) => {
      
         <div className='mt-5 xl:mt-0'>
             <h2 className="text-xl xl:text-2xl font-bold">{t('title')}</h2>
-            <p className="text-gray-500 mt-4">{t('body')}</p>
+            <p className="text-gray-500 mt-4 text-justify">{t('body')}</p>
             <hr className='my-5 xl:my-10' />
             <div className="flex flex-col md:flex-row ">
                 <div className="flex-1 space-y-0 md:space-y-4">
