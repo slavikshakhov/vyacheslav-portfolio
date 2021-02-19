@@ -8,7 +8,7 @@
     "technologies": "Tecnologías, Herramientas",
     "technologies-list": "React, React Hooks, Context API, CSS, TailwindCSS, Node.js, MySQL, GigHub Pages, Heroku",
     "live-project-btn": "ver Proyecto",
-    "popup-text": "Este proyecto requiere registro y autenticación. Regístrese o inicie sesión con:",
+    "popup-text": "Este proyecto requiere registro y autentificación. Regístrese e inicie sesión, o inicie sesión con:",
     "username-key": "Usario",
     "username-value": "Testing",
     "password-key": "Contraseña",

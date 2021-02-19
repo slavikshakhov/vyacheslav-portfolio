@@ -8,7 +8,7 @@
     "technologies": "Lenguajes de programación, Tecnologías, Herramientas",
     "technologies-list": "Angular, Typescript, Javascript, CSS, HTML, Material Design, AngularFirestore, AngularFireAuth, Firebase",
     "live-project-btn": "ver Proyecto",
-    "popup-text": "Este proyecto requiere registro y autenticación. Regístrese o inicie sesión con:",
+     "popup-text": "Este proyecto requiere registro y autentificación. Regístrese e inicie sesión, o inicie sesión con:",
     "email-key": "Email",
     "email-value": "testing@gmail.com",
     "password-key": "Contraseña",
