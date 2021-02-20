@@ -51,11 +51,11 @@ const HomeFinances = ({t}) => {
               </div>
               <div className="flex items-center justify-center space-x-5 relative">
                   
-                <button onClick={openPopup}  className={
+                 <buttonon onClick={openPopup}  className={
                   `filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl ${isPopupOpen && 'hidden'}`
                   }>
                     {t('live-project-btn')}
-                </button>
+                </buttonon> 
                  <button className={
                   `filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl ${isPopupOpen && 'hidden'}`
                   }>

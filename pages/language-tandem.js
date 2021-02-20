@@ -53,7 +53,9 @@ const LanguageTandem = ({t}) => {
                 <buttonon onClick={openPopup}  className={
                   `filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl ${isPopupOpen && 'hidden'}`
                   }>
-                    {t('live-project-btn')}
+                    <a href="https://weight-loss-app-146e6.firebaseapp.com/login" target='_blank'>
+                        {t('open-project')}
+                    </a>
                 </buttonon>
                 <button  className={
                   `filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl ${isPopupOpen && 'hidden'}`
