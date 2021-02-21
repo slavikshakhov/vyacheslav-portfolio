@@ -32,14 +32,19 @@ const Projects = ({t}) => {
                 <h3 className="text-xl xl:text-2xl font-semibold uppercase">{t('home-finances-title')}</h3>
                 <p className="text-sm text-center">{t('home-finances-subtitle')}</p>
             </div>    
-            <div className="absolute top-0 left-0 w-full  h-56 md:h-64 z-20 bg-black opacity-90 overlay">
-                <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
-                    <p className="text-yellow-500 text-xl xl:text-2xl">{t('home-finances-title')}</p>                  
-                    <p className="text-white hover:text-gray-400 text-lg xl:text-xl font-semibold z-30">
-                        <Link href="/home-finances"><a>{t('more')}</a></Link>
-                    </p>    
-                </div>
-            </div> 
+            <Link href="/home-finances">
+                <a>
+                    <div className="absolute top-0 left-0 w-full  h-56 md:h-64 z-20 bg-black opacity-90 overlay">
+                        <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
+                            <p className="text-yellow-500 text-xl xl:text-2xl">{t('home-finances-title')}</p>                  
+                            <p className="text-white hover:text-gray-400 text-lg xl:text-xl font-semibold z-30">                                
+                                {t('more')}
+                            </p>    
+                        </div>
+                    </div> 
+                </a>            
+            </Link>
+            
           </div>
         <div className="relative m-3 details">
             <div className="w-64 md:w-72 xl:w-80  h-56 md:h-64  p-5 bg-blue-400 flex flex-col items-center space-y-3">
@@ -47,14 +52,20 @@ const Projects = ({t}) => {
                 <h3 className="text-xl xl:text-2xl font-semibold uppercase">{t('tandem-title')}</h3>
                 <p className="text-sm text-center">{t('tandem-subtitle')}</p>
             </div>
-            <div className="absolute top-0 left-0 w-full  h-56 md:h-64 z-20 bg-black opacity-90 overlay">
-                <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
-                    <p className="text-yellow-500 text-xl xl:text-2xl">{t('tandem-title')}</p>                  
-                    <p className="text-white hover:text-gray-400 text-xl font-semibold z-30">
-                        <Link href="/language-tandem"><a>{t('more')}.</a></Link>
-                    </p>    
-                </div>
-            </div> 
+            <Link href="/language-tandem">
+                <a>
+                    <div className="absolute top-0 left-0 w-full  h-56 md:h-64 z-20 bg-black opacity-90 overlay">
+                        <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
+                            <p className="text-yellow-500 text-xl xl:text-2xl">{t('tandem-title')}</p>                  
+                            <p className="text-white hover:text-gray-400 text-xl font-semibold z-30">
+                                
+                                {t('more')}
+                            </p>    
+                        </div>
+                    </div> 
+                </a>
+            </Link>
+            
         </div>  
         
         <div className="relative m-3 details">
@@ -63,14 +74,20 @@ const Projects = ({t}) => {
                 <h3 className="text-xl xl:text-2xl font-semibold uppercase">{t('weight-control-title')}</h3>
                 <p className="text-sm text-center">{t('weight-control-subtitle')}</p>
             </div>
-            <div className="absolute top-0 left-0 w-full h-56 md:h-64 z-20 bg-black opacity-90 overlay">
-                <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
-                    <p className="text-yellow-500 text-xl xl:text-2xl">{t('weight-control-title')}</p>                  
-                    <p className="text-white hover:text-gray-400 text-xl font-semibold z-30">
-                        <Link href="/weight-control"><a>{t('more')}</a></Link>
-                    </p>    
-                </div>
-            </div> 
+            <Link href="/weight-control">
+                <a>
+                    <div className="absolute top-0 left-0 w-full h-56 md:h-64 z-20 bg-black opacity-90 overlay">
+                        <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
+                            <p className="text-yellow-500 text-xl xl:text-2xl">{t('weight-control-title')}</p>                  
+                            <p className="text-white hover:text-gray-400 text-xl font-semibold z-30">
+                                
+                                {t('more')}
+                            </p>    
+                        </div>
+                    </div> 
+                </a>
+            </Link>
+            
         </div>
         
         <div className="relative m-3 details">
@@ -79,14 +96,20 @@ const Projects = ({t}) => {
                 <h3 className="text-xl xl:text-2xl font-semibold uppercase">{t('checkers-title')}</h3>
                 <p className="text-sm text-center">{t('checkers-subtitle')}</p>
             </div>
-            <div className="absolute top-0 left-0 w-full h-56 md:h-64 l z-20 bg-black opacity-90 overlay">
-                <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
-                    <p className="text-yellow-500 text-xl xl:text-2xl">{t('checkers-title')}</p>                  
-                    <p className="text-white hover:text-gray-400 text-xl font-semibold z-30">
-                        <Link href="/checkers"><a>{t('more')}</a></Link>
-                    </p>    
-                </div>
-            </div> 
+            <Link href="/checkers">
+                <a>
+                    <div className="absolute top-0 left-0 w-full h-56 md:h-64 l z-20 bg-black opacity-90 overlay">
+                        <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
+                            <p className="text-yellow-500 text-xl xl:text-2xl">{t('checkers-title')}</p>                  
+                            <p className="text-white hover:text-gray-400 text-xl font-semibold z-30">
+                                
+                                {t('more')}
+                            </p>    
+                        </div>
+                    </div> 
+                </a>
+            </Link>
+           
         </div>
         
         <div className="relative m-3 details">
@@ -95,14 +118,19 @@ const Projects = ({t}) => {
                 <h3 className="text-xl xl:text-2xl font-semibold uppercase">{t('chat-title')}</h3>
                 <p className="text-sm text-center">{t('chat-subtitle')}</p>
             </div>
-            <div className="absolute top-0 left-0 w-full h-56 md:h-64  z-20 bg-black opacity-90 overlay">
-                <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
-                    <p className="text-yellow-500 text-xl xl:text-2xl">{t('chat-title')}</p>                  
-                    <p className="text-white hover:text-gray-400 text-xl font-semibold z-30">
-                        <Link href="/chat"><a>{t('more')}</a></Link>
-                    </p>    
-                </div>
-            </div> 
+            <Link href="/chat">
+                <a>
+                    <div className="absolute top-0 left-0 w-full h-56 md:h-64  z-20 bg-black opacity-90 overlay">
+                        <div className="flex flex-col items-center justify-center space-y-3 w-full h-full">  
+                            <p className="text-yellow-500 text-xl xl:text-2xl">{t('chat-title')}</p>                  
+                            <p className="text-white hover:text-gray-400 text-xl font-semibold z-30">
+                                {t('more')}
+                            </p>    
+                        </div>
+                    </div> 
+                </a>
+            </Link>
+            
         </div>       
       </div>
     </div>    
