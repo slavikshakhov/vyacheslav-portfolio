@@ -2,8 +2,8 @@
     "seo-title": "Kompetenzen",
     "seo-description": "Javascript, ES6, React, Gatsby, Next.js, Angular, Bootstrap, Tailwind, Tachyons, css, html, sass, Styled Components, Material Design, Material UI, Node.js, Express.js, MySQL, SQLite, postgreSQL, MongoDB, Git, GitHub, Firebase, Firestore, Netlify, Contentful, GraphQL, Elixir, Erlang, Phoenix",
     "frontend-title": "Frontend - React, Angular",
-    "react-before-link": "React ist meine Lieblingssoftwarenbibliotek. Ich verwende sie in den meisten meiner Applikationen mit all den modernen Funktionen wie React Hooks oder Context API unter vielen anderen. Es funktioniert sehr gut mit Redux, Styled Components, React Router usw. In",
-    "react-after-link": "Sie können meine bereitgestellten Projekte mit React und dem entsprechenden GitHub-Code sehen. Dieses Portfolio wurde in React und Next.js erstellt. Es unterstützt SEO und kann in Englisch, Spanisch und Deutsch angezeigt werden. Sehen Sie",
+    "react-before-link": "React ist meine Lieblingssoftware-Bibliotek. Ich verwende sie in den meisten meiner Applikationen mit all den modernen Funktionen wie React Hooks oder Context API unter vielen anderen. Es funktioniert sehr gut mit Redux, Styled Components, React Router usw. In",
+    "react-after-link": "können Sie meine bereitgestellten Projekte mit React und dem entsprechenden GitHub-Code sehen. Dieses Portfolio wurde in React und Next.js erstellt. Es unterstützt SEO und kann in Englisch, Spanisch und Deutsch angezeigt werden. Sehen Sie",
     "react-link1": "Projekte",
     "react-link2": "GitHub código",
 
@@ -14,14 +14,14 @@
     "frontend-technologies": "Technologien",
     
     "server-title": "Server - Node.js",
-    "server-description-before-link": "Ich habe Node.js für die Mehrheit von meiner",
-    "server-description-after-link": "gewählt. Ich bevorzuge den minimalistischen Ansatz beim Erstellen von Anwendungen, da er mir Freiheit und Flexibilität bietet. In Kombination mit meinen gründlichen Kenntnissen in Javascript und Algorithmen kann ich jede API erstellen, die den Anforderungen des Kunden am besten entspricht.",
+    "server-description-before-link": "Ich habe Node.js für die meisten meiner",
+    "server-description-after-link": "gewählt. Ich bevorzuge den minimalistischen Ansatz beim Erstellen von Anwendungen, da er mir Freiheit und Flexibilität bietet, welcher zusammen mit meinen gründlichen Kenntnissen in Javascript und Algorithmen, macht es möglich jede API zu erstellen, entsprechend den Anforderungen meiner Kunden.",
     "server-link1": "Projekten",
     "server-languages": "Programmiersprachen",
     "server-technologies": "Technologien",
 
     "database-title": "Datenbankverwaltungssysteme.",
-    "database-description": "Bei der Auswahl der Datenbank schaue ich auf die Art der Daten, ob Skalierbarkeit erforderlich ist und / oder welche Anforderungen meine Kunden hat.",
+    "database-description": "Bei der Auswahl der Datenbank achte ich stark darauf, ob Skalierbarkeit erforderlich ist und / oder welche Anforderungen meine Kunden haben.",
     "database-tools": "Programmierwerkzeuge",
     "databases": "Datenbanken"
 }
