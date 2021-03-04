@@ -4,7 +4,7 @@
     "title": "Live Chat",
     "subtitle": "App, um privat mit einem ausgewählten Benutzer oder öffentlich mit einer Gruppe von Benutzern zu chatten",
     "title-technologies": "React, Node.js",
-    "description": "Dies ist eine klassische Chat-Anwendung. Der Benutzer kann mit anderen Online-Benutzern entweder im privaten Chat mit ausgewählten Teilnehmern oder öffentlich mit einer Gruppe chatten.",
+    "description": "Dies ist eine klassische Chat-Anwendung. Der Benutzer kann mit ausgewählten anderen Online-Benutzern entweder im privaten Chat oder öffentlich mit einer Gruppe chatten.",
     "technologies": "Technologien",
     "technologies-list": "React, Tachions, Node.js, Socket.io, GitHub Pages, Heroku",
     "live-project-btn": "sehe Projekt"

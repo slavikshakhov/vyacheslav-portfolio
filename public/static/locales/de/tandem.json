@@ -4,7 +4,7 @@
     "title": "Sprachtandem",
     "subtitle": "App, um Sprachpartner zu finden",
     "title-technologies": "React, Redux, Node.js, MySQL",
-    "description": "Diese App erfordert eine Benutzerregistrierung und -authentifizierung. Mit der App können Benutzer potenzielle Sprachaustauschpartner finden. Das Matching basiert auf den gesprochenen Sprachen und denen, die der Benutzer üben möchte. Es wurden komplexe MySQL-Beziehungen verwendet. Der Benutzer kann dann einen beliebigen potenziellen Partner aus der übereinstimmenden Liste kontaktieren. Der Live-Chat ist für diejenigen aktiviert, die gerade online sind. Der Benutzer kann seine Sprachauswahl jederzeit ändern.",
+    "description": "Diese App erfordert eine Benutzerregistrierung und -authentifizierung. Mit der App können Benutzer potenzielle Sprach-Austauschpartner finden. Der Datenabgleich (Matching) basiert auf den gesprochenen Sprachen und dem Wunsch des Benutzers für die Sprache, die er gerne üben möchte. Es wurden komplexe MySQL-Beziehungen verwendet. Der Benutzer kann dann einen beliebigen potenziellen Partner aus der übereinstimmenden Liste kontaktieren. Der Live-Chat ist nur für diejenigen aktiviert, die gerade online sind. Der Benutzer kann seine Sprachauswahl jederzeit ändern.",
     "technologies": "Technologien, Tools",
     "technologies-list": "React, Redux, Socket.io, Node.js, MySQL, GitHub Pages, Heroku",
     "live-project-btn": "sehe Projekt",
