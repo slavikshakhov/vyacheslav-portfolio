@@ -53,7 +53,7 @@ const LanguageTandem = ({t}) => {
                 <buttonon onClick={openPopup}  className={
                   `filled-btn px-4 py-2 rounded-none xl:px-8 xl:py-2 xl:rounded-3xl ${isPopupOpen && 'hidden'}`
                   }>
-                    <a href="https://weight-loss-app-146e6.firebaseapp.com/login" target='_blank'>
+                    <a href="https://slavikshakhov.github.io/tandem-react-client" target='_blank'>
                         {t('open-project')}
                     </a>
                 </buttonon>
